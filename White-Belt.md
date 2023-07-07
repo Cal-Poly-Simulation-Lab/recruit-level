@@ -36,5 +36,11 @@ For example, in this screen shot, I have completed two tutorials (PYTHON Syntax 
 ### Task 1.3 - Python Data Collections
 The basic data types explored in Task 1.2 are common to most coding languages and used frequently.  But, many times, we want to store collections of data.  In Python, we use **Lists, Tuples, Sets, and Dictionaries** in these cases.  As you learn more about coding and the general ideas of modeling and simulation, the value of storing data in collections will become more obvious.
 
-To complete Task 1.2, work through the sections **Python Lists** to **Python Dictionaries**.  To show you have completed Task 1.3, attached a screen shot of the completed excercises to this file.
+To complete Task 1.3, work through the sections **Python Lists** to **Python Dictionaries**.  To show you have completed Task 1.3, attached a screen shot of the completed excercises to this file.
 
+### Task 1.4 - Flow Control and Functions
+So far we have learned the basics of using Python as a calculator at the *command line*.  But what if we want to perfrom more complicated algorithms, or at a minimum, apply the same calculation to a collection data type like a list?  This is where flow control comes in.  Python (like most languages) uses the *if...else*, *while*, and *for* constructs to control *program execution*.  Another very important way to execuit code is by using **functions**.  In fact, many of the built-in Python commands are functions themselves.
+
+To complete Task 1.4, work through the sections **Python If...Else** to **Python Functions**.  To show you have completed Task 1.4, attached a screen shot of the completed excercises to this file.
+
+**Congratulations!  You have completed Task 1!**
