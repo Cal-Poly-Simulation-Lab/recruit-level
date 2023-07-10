@@ -1,11 +1,14 @@
-# Modify the code below to
+# The code below has a few problems
+# Modify the code so that you can double the value of each item in the list
+# One important modification will be to ensure that the code does not modify the
+# reference to the list L.
 
-def mod_list(L):
+def mod_list(L, mod_factor):
     #new_L = L
     new_L = []
     #for l in new_L:
     for l in L:
-        new_L.append(2*l)
+        new_L.append(mod_factor * l)
 
     return new_L
 
