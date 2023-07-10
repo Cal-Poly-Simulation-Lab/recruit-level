@@ -53,6 +53,6 @@ Side note, to get around this issue, we can use slicing.  For example:
 
 In this example, the values in the list assigned to the variable `b` do not change.  This is because the slicing operator **:** creates a reference to a new address in memory to story the values in the list.
 
-- [ ] to complete Task 2 towards your White Belt, 
+- [ ] to complete Task 2 towards your White Belt, modify the templat code in value-vs-ref.py as indicated in the comments of the code.  Submit your code for testing by pushing your solutions to your repo.
 
 [^1]:Side note: You may have heard the term **pointer**.  Pointers are similar to referneces at a high level.  Many languages (but not all) use references or pointers.  C and C++ use pointers heavily.
