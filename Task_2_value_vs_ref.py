@@ -20,8 +20,9 @@ def mod_list(L, m):
     return new_L
 
 L = [1, 2, 3]
+m = 2
 print("the list is: ", L)
 
-new_L = mod_list(L)
+new_L = mod_list(L, m)
 print('the list after calling the function is: ', L)
 print('the new list is: ', new_L)
