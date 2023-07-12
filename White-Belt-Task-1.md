@@ -8,10 +8,10 @@ In the PolySim Belt Program, we will used the GitHub Classroom for many of the t
 
 Each bit of code you write/modify will be contained within a *function*.  You will learn more about functions later, but in the mean time, all your code will be surrounded by a function definition like:
 
-`
+```
 def my_function():
-#your code here
-`
+   #your code here
+```
 
 This will make the unit testing easier and clear.
 
