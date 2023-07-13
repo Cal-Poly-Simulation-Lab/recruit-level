@@ -1,7 +1,6 @@
 import Task_1_code as t1
 
-class TestTaks1:
-
+class TestTask_1_2:
     def test_variables(self):
         result = t1.variables()
 
@@ -23,6 +22,7 @@ class TestTaks1:
 
         assert result[6] == "My name is Gizmo, and I am 42"
 
+class TestTask_1_3:
     def test_lists(self):
         result = t1.lists()
 
@@ -38,3 +38,30 @@ class TestTaks1:
         assert result[0] == [1,2,3,42]
         assert result[1] == ['banana', 42, 3, 2+4j]
 
+    def test_tuples(self):
+        pass
+
+    def test_sets(self):
+        pass
+
+    def test_dectionaries(self):
+        pass
+
+    def test_loops(self):
+        pass
+
+class TestTask_1_4:
+    def test_if_else(self):
+        pass
+
+    def test_while(self):
+        pass
+
+    def test_for(self):
+        pass
+
+    def test_funtions(self):
+        pass
+
+    def test_lambda(self):
+        pass

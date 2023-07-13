@@ -48,6 +48,12 @@ def tuples():
     # return all the variables above
     pass
 
+def sets():
+    pass
+
+def dictionaries():
+    pass
+
 def list_loops():
     pass
 
