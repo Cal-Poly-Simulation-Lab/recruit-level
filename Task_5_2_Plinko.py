@@ -1,6 +1,6 @@
 import vpython as vp
 
-ball = vp.sphere(pos=vp.vec(0,5,0))
+ball = vp.sphere(pos=vp.vec(0.7,5,0))
 ball.color = vp.color.blue
 
 pin = vp.sphere(pos=vp.vector(0,0,0))
