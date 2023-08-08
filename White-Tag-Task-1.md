@@ -1,10 +1,10 @@
 # Task 1 - Learn the Basics of Python
-There are many coding langagues out there and through your PolySim belt journey, you will have the opportunity to learn several of them.  We will start with **Python**.  For more backgroun on Python check out their website, [Python.org](https://www.python.org/).  And of corse, we love Wikipedia [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language)).
+There are many coding langagues out there and through your PolySim tag journey, you will have the opportunity to learn several of them.  We will start with **Python**.  For more backgroun on Python check out their website, [Python.org](https://www.python.org/).  And of corse, we love Wikipedia [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language)).
 
 Python is a general purpose, object-oriented, procedural/functional, structured, and reflective language that has become very popular since is was concieved in the late 1980s.  But the real impact of Python came in the late 2000s with the release of Python 2.7 and again with the release of Python 3.0.  These days, we will be using Python 3.11 or higher.  But, the basics of Python have not changed significantly over that time.
 
 ## General Information for Completing this Level
-In the PolySim Belt Program, we will used the GitHub Classroom for many of the tasks.  To complete these tasks, you will need to accept the assignment.  Once you do, you can open VS Code and clone the new assignment repository.  You will be asked to make changes to various parts of code, test the code in the VS Code Unit Test framework, and then *commit* and *synch* your code back to the repository.  If all unit tests pass, and upon review of the PolyView Belt Coordinator, you will receive your tag.
+In the PolySim Tag Program, we will used the GitHub Classroom for many of the tasks.  To complete these tasks, you will need to accept the assignment.  Once you do, you can open VS Code and clone the new assignment repository.  You will be asked to make changes to various parts of code, test the code in the VS Code Unit Test framework, and then *commit* and *synch* your code back to the repository.  If all unit tests pass, and upon review of the PolyView Tag Coordinator, you will receive your tag.
 
 Each bit of code you write/modify will be contained within a *function*.  You will learn more about functions later, but in the mean time, all your code will be surrounded by a function definition like:
 
