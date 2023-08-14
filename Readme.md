@@ -1,10 +1,12 @@
-# PolySim Recruit Level Task List
+# PolySim Recruit Level - Basics of Python and Simulation
 The Cal Poly Simulation Laboratory (PolySim) is dedicated to working on projects involving modeling and simulation of aerospace systems.  One of our primary objectives is to support club members as they develop their own modeling, simulation, and controls skills.  Through the **PolySim Tag Program**, club members will start learning the basic tools of modeling and simulation, including writing code and building hardware.
 
-After completing the tasks in this **assignment**, you will advance to a PolySim **Recruit** and your Cal Poly Simulaiton Lab **White Tag**.
+After completing the tasks in this **assignment**, you will advance to the PolySim **Recruit** level and earn your Cal Poly Simulaiton Lab **White Tag**.
 
+## Recruit Level Overview
 To impliment almost all modeling and simulation projects, you will need to use some code.  At the white tag level, you will learn the basics of programming using the Python programming language.  Python is a widely used, easy to learn, multipurpose programming language.  As with any langauge, there is always more to learn, and what you learn about Python can be applied to many other langagues.  Learning Python will help you pick up and use other languages in your **PolySim Tag Program** journey.
 
+## Recruit Level Task List
 To earn the White Tag, you will complete the following tasks:
 - [ ] Task 0: Learn the basics of Git, GitHub, and GitHub Classroom
 - [ ] Task 1: Learn some basic Python techniques such as:
