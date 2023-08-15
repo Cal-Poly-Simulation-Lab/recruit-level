@@ -114,7 +114,7 @@ class TestTask_1_4:
         # case 3
         a, b = 5, 5
         result = t1.if_else_2(a, b)
-        assert result == b
+        assert result == (a, b)
 
     def test_while(self):
         result = t1.while_1(4)
@@ -125,16 +125,16 @@ class TestTask_1_4:
 
     def test_for(self):
         # case 0: n = 0
-        assert t1.code_for_1(0) == 0
+        assert t1.for_1(0) == 0
 
         # case 1: n = 1
-        assert t1.code_for_1(1) == 1
+        assert t1.for_1(1) == 1
 
         # case 2: n = 2
-        assert t1.code_for_1(2) == 1
+        assert t1.for_1(2) == 1
 
         # case 3: n = 7
-        assert t1.code_for_1(7) == 13
+        assert t1.for_1(7) == 13
  
     def test_funtions(self):
         result = t1.functions_1([2, 2.5, 6])

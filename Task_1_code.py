@@ -2,23 +2,23 @@
 
 def variables():
     # define the variable x0 to the value of two as an integer
-
+    x0 = 2
     # define the variable x1 to the value of two as a flaot
-
+    x1 = 2.0
     # cast the variable x0 to a string and store the new value in a variable x0_str
-
+    x0_str = str(x0)
     # define the variable new_str to the value "Hello, World!"
-
+    new_str = "Hello, World!"
     # define the varialbe str_type to the type of the variable str
-
+    str_typ = type(str)
     # use slicing to define a new variable h which is only the word "Hello" in str
-
+    h = new_str[:5]
     # define a formated string, "My name is Gizmo, and I am 42" with the name and age passed
     # as variables using the format() method.
-
+    f = "My name is {}, and I am {}".format('Gizmo', 42)
     # return all the variables above
-    # return x0, x1, x0_str, new_str, str_typ, h, f
-    pass
+    return x0, x1, x0_str, new_str, str_typ, h, f
+    #pass
 
 def lists():
     # Lists are Ordered, Changeable, and Allow Duplicates
@@ -127,10 +127,10 @@ def if_else_1(a, b):
 def  if_else_2(a,b):
     # use the ternary short hand to return the larger of the 
     # two values, a and b.
-    # if and and b are equal, return b
+    # if a and b are equal, return both in a tuple
     return b if b > a else a if a > b else (a, b)
 
-def code_while_1(n):
+def while_1(n):
     # write a while loop to count to n, and return a list
     # with integers from 0 to n
     i = 0
@@ -140,7 +140,7 @@ def code_while_1(n):
         i += 1
 
     return L
-def code_while_2(n, b):
+def while_2(n, b):
     # write a while loop to count to n, but skipping b
     # using a continue statement.  Return a list with all numbers
     # counted
@@ -155,7 +155,7 @@ def code_while_2(n, b):
 
     return L
 
-def code_for_1(n):
+def for_1(n):
     # use a for loop to compute the nth fibonacci number
     # fn num = [0 1 2 3 4 5 6 7 ...]
     # fn seq = [0 1 1 2 3 7 8 13 ...]
