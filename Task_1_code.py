@@ -2,23 +2,23 @@
 
 def variables():
     # define the variable x0 to the value of two as an integer
-    x0 = 2
+
     # define the variable x1 to the value of two as a flaot
-    x1 = 2.0
+
     # cast the variable x0 to a string and store the new value in a variable x0_str
-    x0_str = str(x0)
+
     # define the variable new_str to the value "Hello, World!"
-    new_str = "Hello, World!"
+
     # define the varialbe str_type to the type of the variable str
-    str_typ = type(str)
+
     # use slicing to define a new variable h which is only the word "Hello" in str
-    h = new_str[:5]
+
     # define a formated string, "My name is Gizmo, and I am 42" with the name and age passed
     # as variables using the format() method.
-    f = "My name is {}, and I am {}".format('Gizmo', 42)
+
     # return all the variables above
-    return x0, x1, x0_str, new_str, str_typ, h, f
-    #pass
+    # return x0, x1, x0_str, new_str, str_typ, h, f
+    pass
 
 def lists():
     # Lists are Ordered, Changeable, and Allow Duplicates
