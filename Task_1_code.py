@@ -2,7 +2,7 @@
 
 def variables():
     # define the variable x0 to the value of two as an integer
-    x0 = 2.
+    x0 = 2
     # define the variable x1 to the value of two as a flaot
     x1 = 2.0
     # cast the variable x0 to a string and store the new value in a variable x0_str
