@@ -11,11 +11,10 @@ def mod_list(L, m):
 
     Parameter m:  The modificaiton factor used to modify the list L
     """
-    #new_L = L
-    new_L = []
-    #for l in new_L:
-    for l in L:
-        new_L.append(m * l)
+    new_L = L
+
+    for i in range(0, len(L)):
+        new_L[i] = m * L[i]
 
     return new_L
 
