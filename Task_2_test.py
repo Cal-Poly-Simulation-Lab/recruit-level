@@ -8,3 +8,4 @@ class TestTask_2:
         expected = [2, 4, 6]
         result = t2.mod_list(L, m)
         assert result == expected
+        assert L == [1, 2, 3]
