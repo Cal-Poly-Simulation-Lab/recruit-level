@@ -1,23 +1,28 @@
 import vpython as vp
 
-ball = vp.sphere(pos=vp.vec(0,5,0))
-ball.color = vp.color.blue
+# Create a blue ball or radius 1 and position (0,5,0)
+ball = vp.sphere(pos = vp.vector(0,5,0))
 
-floor = vp.box(length=5, width=5, height=.5)
-floor.color = vp.color.red
+# Create a red floor using a box of (l,h,w)=(5,.5,5) at position (0,0,0)
 
+# Set initial conditions and values
 g = -9.8
-ball.accel = vp.vector(0, g, 0)
-ball.velocity = vp.vector(0, 0, 0)
+#ball.accel = vp.vector(0, g, 0)
+#ball.velocity = vp.vector(0, 0, 0)
 dt = 0.01
 
 while True:
+    # set the frame rate to 100 fps
     vp.rate(100)
     
-    if ball.pos.y < ball.radius + .25:
-        ball.velocity *= -1*.8
-        ball.pos = vp.vector(0, ball.radius, 0) + vp.vector(0, .25, 0)
+    # if the edge of hte ball hits the floor, bounce by changing the velocity
+    if ball.pos.y < ball.radius + x:
+        pass
+    # else, update velocty with a * dt
     else:
-        ball.velocity += ball.accel * dt
-        
-    ball.pos += ball.velocity*dt
+        pass
+    
+    # update the position of the ball with v * dt
+    
+    
+    pass

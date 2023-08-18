@@ -11,6 +11,7 @@ ball.color = vp.color.blue
 pin = vp.cylinder(pos=vp.vector(0,0,-1.5), axis=vp.vector(0, 0, 3))
 pin.color = vp.color.red
 # set a property of the pin, center, and set it to the VPython vector (0,0,0)
+# notice, we're adding a new property to an existing object
 pin.center = vp.vector(0,0,0)
 
 # set up the floor and side walls to form a box of base 10x10 and walls that
@@ -37,29 +38,21 @@ while True:
     # set the rate to 100
     vp.rate(100)
 
-    # find the distance between the ball position and the pin center
-    n_dir = ball.pos - pin.center
+    # find the vector between the ball position and the pin center
+    n_dir = 
 
     # If the ball hits the pin, bounce
     if vp.mag(n_dir) < ball.radius + pin.radius:
-        t_dir = vp.cross(vp.hat(n_dir), vp.vector(0,0,1))
-        v_t = vp.dot(ball.velocity, vp.hat(t_dir))*vp.hat(t_dir)
-        v_n = vp.dot(ball.velocity, vp.hat(n_dir))*vp.hat(n_dir)
-        ball.velocity = dE * (v_t - v_n)
-        ball.pos = pin.center + (pin.radius+ball.radius)*vp.hat(n_dir)
+        pass
     # elif the ball hits the floor, bounce    
     elif ball.pos.y - ball.radius < -4.75:
-        ball.velocity.y = -1 * ball.velocity.y
-        ball.velocity *= dE
-        ball.pos.y = -4.75 + ball.radius
+        pass
     # elif the ball hits a wall, bounce
     elif abs(ball.pos.x) + ball.radius > 5:
-            ball.velocity.x = -1 * ball.velocity.x
-            ball.velocity *= dE
-            ball.pos.x = 4 * ball.pos.x/abs(ball.pos.x)
+            pass
     # else apply gravitatonal acceleration to update the ball velocity
     else:
-        ball.velocity += ball.accel * dt
+        # update the bal acceleration with a * dt
+        pass
     
-    # update the ball position with the new velocity
-    ball.pos += ball.velocity*dt
+    # update the ball position with v * dt
