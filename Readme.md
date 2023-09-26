@@ -1,5 +1,5 @@
 # PolySim Recruit Level - Basics of Python and Simulation
-The Cal Poly Simulation Laboratory (PolySim) is dedicated to working on projects involving modeling and simulation of aerospace systems.  One of our primary objectives is to support club members as they develop their own modeling, simulation, and controls skills.  Through the **PolySim Tag Program**, club members will start learning the basic tools of modeling and simulation, including writing code and building hardware.
+The Cal Poly Simulation Laboratory (PolySim) is dedicated to working on projects involving modeling and simulation of aerospace systems.  One of our primary objectives is to support club members as they develop their own modeling, simulation, and controls skills.  Through the **PolySim Tag Program**, club members will start learning the tools of modeling, simulation, and control, including writing code and building hardware.
 
 After completing the tasks in this **assignment**, you will advance to the PolySim **Recruit** level and earn your Cal Poly Simulaiton Lab **White Tag**.
 
