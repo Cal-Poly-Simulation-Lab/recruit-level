@@ -28,7 +28,7 @@ def lists():
 
     # define a variable m which is the first element of M
 
-    # use slicing to define a new list N which is the first and second elements of L
+    # use slicing to define a new list N which is the first and second elements of M
 
     # add the value 42 to the list L
 
