@@ -13,6 +13,10 @@ def my_function():
    #your code here
 ```
 
+```
+code()
+```
+
 This will make the unit testing easier and clear.
 
 ## Task 1.1 - Download and Install Python
